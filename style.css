@@ -1,0 +1,19 @@
+.mdl-layout__header {
+  background-color: #2a0f5c; 
+}
+
+.mdl-layout__content {
+  background-color: #ffffff; 
+}
+
+.mdl-layout__content {
+  display: flex;
+  flex-direction: column; /* Ordnet die Elemente untereinander an */
+  align-items: center;    /* Zentriert die Elemente horizontal */
+}
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+  margin-top: 50px; /* Fügt 35 Pixel Platz über dem weißen Kasten hinzu */
+}
